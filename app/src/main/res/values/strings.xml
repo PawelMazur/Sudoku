@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Sudoku</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="etykieta_kontynuacja">Kontynuuj</string>
+    <string name="etykieta_nowa_gra">Nowa Gra</string>
+    <string name="etykieta_informacja">Informacja</string>
+    <string name="etykieta_wyjscie">Wyjście</string>
+    <string name="glowny_tytul">Android Sudoku</string>
+    <string name="tytul_informacje">Informacje o grze</string>
+    <string name="text_informacje">\ Sudoku jest grą logiczną, polegajaca na
+    właściwym rozmieszczeniu cyfr. Zadaniem jest uzupełnienie częściowo wypełnionej
+    siatki o rozmiarach  9x9 pól w taki sposób, aby w każdym w wierszu, każdej
+    kolumnie oraz w każdym kwadracie o rozmiarach 3x3 pola(zwana również <i>blokiem</i>)
+    pojawiła się dokładnie jedna cyfra z przedziału od 1 do 9.
+    Cyfry w wymienionych obszarach nie mogą się powtarzać </string>
+
+    <string name="etykieta_ustawien">Ustawienia</string>
+    <string name="tytul_ustawienia">Ustawienia gry Sudoku</string>
+    <string name="skrot_ustawienia">s</string>
+
+    <string name="podsumowanie_muzyka">Odtwarza muzyke w tle</string>
+    <string name="tytul_podpowiedzi">Podpowiedzi</string>
+    <string name="podsumowanie_podpowiedzi">Wyświetl podpowiedz w trakcie gry</string>
+
+    <string name="tytul_nowa_gra">Poziom trudności</string>
+    <string name="etykieta_latwy">Latwy</string>
+    <string name="etykieta_sredni">Średni</string>
+    <string name="etykieta_trudny">Trudny</string>
+
+    <string name="tytul_gra">Gra</string>
+    <string name="etykieta_brak_ruchow">Brak ruchów</string>
+    <string name="tytul_klawiatura">Klawiatura</string>
+
+    <string name="TrybNocny">Tryb Nocny</string>
+    <string name="TrybDzienny">Tryb Dzienny</string>
+    <string name="NowaGra">Nowa Gra</string>
+    <string name="Wyczysc">Wyczyść</string>
+    <string name="Wyjdź">Wyjdź</string>
+    <string name="cancel" >Cancel</string>
+
+    <string name="Ustawienia">Ustawienia</string>
+    <string name="tytul_muzyka">Muzyka</string>
+    <string name="muzyka_text">Odtwarza muzyke w tle</string>
+
+</resources>

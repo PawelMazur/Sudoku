@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="app.sudoku" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar"  >
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".Game"
+            android:theme="@style/AlertDialog.AppCompat.Light"
+            android:screenOrientation="portrait"
+            android:banner="@drawable/tlo"/>
+        <activity android:name=".FileTxt.ActivityFile"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        </activity>
+        <activity android:name=".InfoGame"
+            android:label="Informacje o grze"
+            android:theme="@android:style/Theme.Dialog">
+
+        </activity>
+        <activity android:name=".Settings"
+            android:label="@string/Ustawienia"></activity>
+
+    </application>
+
+</manifest>

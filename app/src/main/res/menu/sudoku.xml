@@ -1,0 +1,42 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="org.przyklad.Sudoku.sudoku.app.Sudoku" >
+    <!--
+    <item android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+        -->
+    <item android:id="@+id/menu_trybNocny"
+        android:title="@string/TrybNocny">
+    </item>
+
+    <item android:id="@+id/menu_trybDzienny"
+        android:title="@string/TrybDzienny"></item>
+
+    <item android:id="@+id/menu_NowaGra"
+        android:title="@string/NowaGra">
+    </item>
+
+    <item android:id="@+id/menu_Wyczysc"
+        android:title="@string/Wyczysc">
+
+    </item>
+
+
+
+    <!--item android:id="@+id/menu_ListaPlikow"
+        android:title="Pliki">
+    </item-->
+
+    <item android:id="@+id/menu_Ustawienia_Muzyka"
+        android:title="Muzyka">
+
+    </item>
+
+    <item android:id="@+id/menu_Wyjdz"
+        android:title="@string/Wyjdź">
+    </item>
+
+</menu>
